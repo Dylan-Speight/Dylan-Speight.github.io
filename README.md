@@ -36,7 +36,12 @@ https://wireframe.cc/t1mHsu<br>
  
  <h2>How has the internet changed?</h2>
  On the matter of the internet changing the way that humans can and do interact with each other from minute to minute has increased a persons ability to reach out and access other people and has given rise to near unlimited potential. From being able to chat face to face with family acroos the world to updating your friends every other minute on the latest gossip or 'memes' from across the table.
-This is just one way that the internet has changed lives for the better. Small businesses or charities now have the ability to advertise themselves and give themselves the greatest chance of success in the world as it is today.
+This is just one way that the internet has changed lives for the better. <br>
+Small businesses or charities now have the ability to advertise themselves and give themselves the greatest chance of success in the world as it is today. <br>
+Information hasnt just given the small a voice to throw out across the world but has allowed for the monitoring and reigning in of corruption in massive companies that otherwise would be able to undergo shady practices otherwise unseen.<br><br>
+
+While the internet has given us some level of security in the form of information it has also increased the risk of the complete opposite happening and the users information could also be used against them.
+The internet has many positives and negatives in the service it has provided to us however we must be sure to learn how to best use it when moving forward into the future of information technology.
  
  
  
