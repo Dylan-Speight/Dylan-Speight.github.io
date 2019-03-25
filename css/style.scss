@@ -1,7 +1,11 @@
 * {
     font-family: 'Roboto Condensed', sans-serif;
     flex-wrap: wrap;
-    transition: 1s;
+    filter: grayscale(0.5);
+    transition: 0.5s;
+}
+:hover {
+    filter: grayscale(0)
 }
 
 header {
@@ -10,17 +14,17 @@ header {
     width: 100%;
     height: 60px;
     align-items: center;
-    background: #22082F;
+    background: rgb(0, 0, 0);
 }
 h1 {
     color: antiquewhite;
     text-shadow: 1px 1px 3px magenta;
-    background: #22082F;
+    background: black;
 }
 div {
     color: antiquewhite;
     text-shadow: 1px 1px 3px magenta;
-    background: #22082F;
+    background: black;
 }
 content {
     display: flex;
@@ -31,7 +35,7 @@ content {
     width:75%;
     max-width:100%;
     max-height:100%;
-    background: #22082F;
+    background: black;
     order: 1;
     text-align: center;
 }
@@ -42,12 +46,12 @@ content {
     align-items: center;
     justify-content: space-around;
     width: 12.5%;
-    background: #22082F;
+    background: black;
     order:0;
     color: antiquewhite;
     text-shadow: 1px 1px 3px magenta;
     text-align: center;
-    
+
     h1{
         text-shadow: 1px 1px 3px magenta;
     }
@@ -58,12 +62,12 @@ content {
     align-items: center;
     justify-content: space-around;
     width: 12.5%;
-    background: #22082F;
+    background: black;
     order: 2;
     color: antiquewhite;
     text-shadow: 1px 1px 3px cyan;
     text-align: center;
-    
+
     h1 {
         text-shadow: 1px 1px 3px cyan;
     }
@@ -72,19 +76,19 @@ footer {
     display: flex;
     flex-wrap: wrap;
     height:100%;
-    background: #22082F;
+    background: black;
     justify-content: center;
     align-items: center;
 }
 h3 {
     color: antiquewhite;
     text-shadow: 1px 1px 3px rgb(0, 255, 0);
-    background: #22082F;
+    background: black;
 }
 
 @media only screen and (max-width: 415px) {
     * {
-        filter: grayscale(0.25)
+        filter: grayscale(0)
     }
     .aboutMe {
         display: flex;
@@ -109,13 +113,17 @@ h3 {
 }
 @media only screen and (min-width:416px) and (max-width: 800px) {
     * {
-        filter: grayscale(0.25)
+        filter: grayscale(0)
     }
     .aboutMe {
         display: flex;
         width: 100%;
         order: 2;
         max-width: 100%;
+
+        .img {
+            filter: grayscale(0)
+        }
         
     }
     .myPlay,
@@ -127,3 +135,21 @@ h3 {
         order: 1;
     }
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(80, 80, 80);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(80, 80, 80);
+  }
